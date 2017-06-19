@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AntiqueStore"
+             x:Class="AntiqueStore.MainPage">
+    <RelativeLayout>
+        <Image 
+            Source="background.png" 
+            Aspect="Fill"/>
+
+        <Button 
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=0, Constant = 7}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=345}"
+                Image="wood.png" 
+                BackgroundColor="Transparent"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"  
+                Clicked="Register"/>
+
+        <Label 
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=0, Constant = 110}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=465}"
+                Text="Register" 
+                FontSize="40"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+        <Button 
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=0, Constant = 5}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=170}"
+                Image="wood.png" 
+                BackgroundColor="Transparent"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"  
+                Clicked="Login"/>
+
+        <Label 
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=0, Constant = 130}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=290}"
+                Text="Login" 
+                FontSize="40"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+        
+        <Image 
+            Source="sign.png"/>
+
+    </RelativeLayout>
+
+
+</ContentPage>

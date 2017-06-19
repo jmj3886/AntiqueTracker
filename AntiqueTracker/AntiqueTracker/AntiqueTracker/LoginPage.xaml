@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="AntiqueStore.LoginPage">
+    <RelativeLayout>
+        <Image 
+            Source="background.png" 
+            Aspect="Fill"/>
+                
+        <Button 
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=0, Constant = 5}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=170}"
+                Image="wood.png" 
+                BackgroundColor="Transparent"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"  
+                Clicked="OnButtonClicked"/>
+
+        <Label 
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=0, Constant = 130}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=290}"
+                Text="Login" 
+                FontSize="40"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+        <Label  
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=0, Constant = 60}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=440}"
+                Text="Username:"                 
+                Font="Bold"
+                FontSize="20"/>
+
+        <Entry  
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=0, Constant = 160}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=430}"
+                WidthRequest="150"/>
+
+        <Label  
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=0, Constant = 60}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=490}"
+                Text="Password:"                
+                Font="Bold"
+                FontSize="20"/>
+
+        <Entry  
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=0, Constant = 160}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=480}"
+                WidthRequest="150"
+                IsPassword="True"/>
+
+        <Image 
+            Source="sign.png"/>
+
+    </RelativeLayout>
+
+</ContentPage>

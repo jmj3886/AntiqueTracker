@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AntiqueStore.ViewPage">
+
+    <RelativeLayout>
+        <Image 
+            Source="background.png" 
+            Aspect="Fill"/>
+
+        <Image
+            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=0, Constant = 20}"
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=50}"
+            Source="https://lintvwkbn.files.wordpress.com/2015/11/robbery-north-lima.jpg?w=650"
+            WidthRequest="325"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"/>
+
+        <BoxView 
+            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=0, Constant = 15}"
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=190}"
+            HeightRequest="2" 
+            WidthRequest="325"
+            BackgroundColor="Black"/>
+
+        <Label 
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=0, Constant = 20}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=200}"
+                Text="{Binding Name}" 
+                HorizontalTextAlignment="Center"                           
+                Font="Bold"
+                FontSize="25"
+                WidthRequest="325"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+        <Label 
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=0, Constant = 20}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=260}"
+                Text="400 Miles Away" 
+                HorizontalTextAlignment="Center"
+                FontSize="20"
+                WidthRequest="325"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+        <Button 
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=0, Constant = 130}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=290}"
+                Text="Directions"
+                BorderRadius="10"
+                BackgroundColor="DarkKhaki"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                Clicked="GetDirections"/>
+        
+        <Label 
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=0, Constant = 40}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=350}"
+                Text="Address: 8574 Market St" 
+                HorizontalTextAlignment="Center"
+                FontSize="20"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        
+        <Label 
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=0, Constant = 40}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=370}"
+                Text="City: Boardman" 
+                HorizontalTextAlignment="Center"
+                FontSize="20"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+        <Label 
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=0, Constant = 40}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=390}"
+                Text="Zip: 44512" 
+                HorizontalTextAlignment="Center"
+                FontSize="20"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+    </RelativeLayout>
+    
+</ContentPage>
