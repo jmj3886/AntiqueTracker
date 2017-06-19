@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace AntiqueStore
+namespace AntiqueTracker
 {
 	public partial class LoginPage : ContentPage
 	{

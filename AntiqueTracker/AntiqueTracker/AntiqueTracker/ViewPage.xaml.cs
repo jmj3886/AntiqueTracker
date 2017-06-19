@@ -8,7 +8,7 @@ using System.Net;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace AntiqueStore
+namespace AntiqueTracker
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ViewPage : ContentPage

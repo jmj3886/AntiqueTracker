@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace AntiqueStore.iOS
+namespace AntiqueTracker.iOS
 {
 	// The UIApplicationDelegate for the application. This class is responsible for launching the 
 	// User Interface of the application, as well as listening (and optionally responding) to 
@@ -25,7 +25,9 @@ namespace AntiqueStore.iOS
 			global::Xamarin.Forms.Forms.Init ();
 
             Xamarin.FormsMaps.Init();
-            LoadApplication (new AntiqueStore.App ());
+
+            LoadApplication(new AntiqueTracker.App ());
+
 
             return base.FinishedLaunching (app, options);
 		}

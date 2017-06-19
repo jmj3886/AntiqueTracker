@@ -5,7 +5,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace AntiqueStore
+namespace AntiqueTracker
 {
 	public partial class App : Application
 	{
@@ -13,7 +13,7 @@ namespace AntiqueStore
 		{
 			InitializeComponent();
 
-			MainPage = new AntiqueStore.MainPage();
+			MainPage = new AntiqueTracker.MainPage();
 		}
 
 		protected override void OnStart ()

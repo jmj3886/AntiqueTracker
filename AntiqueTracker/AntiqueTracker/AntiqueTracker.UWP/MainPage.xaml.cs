@@ -13,7 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace AntiqueStore.UWP
+namespace AntiqueTracker.UWP
 {
     public sealed partial class MainPage
     {
@@ -21,7 +21,7 @@ namespace AntiqueStore.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new AntiqueStore.App());
+            LoadApplication(new AntiqueTracker.App());
         }
     }
 }

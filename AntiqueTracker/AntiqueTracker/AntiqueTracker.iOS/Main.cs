@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace AntiqueStore.iOS
+namespace AntiqueTracker.iOS
 {
 	public class Application
 	{

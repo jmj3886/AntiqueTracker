@@ -14,7 +14,7 @@
   <mp:PhoneIdentity PhoneProductId="f736c883-f105-4d30-a719-4bf328872f5e" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>AntiqueStore.UWP</DisplayName>
+    <DisplayName>AntiqueTracker.UWP</DisplayName>
     <PublisherDisplayName>Joshua</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,9 +30,9 @@
   <Applications>
     <Application Id="App"
         Executable="$targetnametoken$.exe"
-        EntryPoint="AntiqueStore.UWP.App">
+        EntryPoint="AntiqueTracker.UWP.App">
       <uap:VisualElements
-        DisplayName="AntiqueStore.UWP"
+        DisplayName="AntiqueTracker.UWP"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
         Description="FPCL.WIndows"

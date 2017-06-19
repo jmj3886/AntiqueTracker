@@ -8,7 +8,7 @@
 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 	<uses-permission android:name="android.permission.INTERNET" />
-	<application android:label="AntiqueStore.Android">
+	<application android:label="AntiqueTracker.Android">
 		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDYoGJQWpH6Dc7T3jtJ5DrzVknq56d2T3w" />
 		<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
 	</application>

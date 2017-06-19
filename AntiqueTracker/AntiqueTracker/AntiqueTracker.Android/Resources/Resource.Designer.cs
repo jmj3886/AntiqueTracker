@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("AntiqueStore.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("AntiqueTracker.Droid.Resource", IsApplication=true)]
 
-namespace AntiqueStore.Droid
+namespace AntiqueTracker.Droid
 {
 	
 	
@@ -26,7 +26,7 @@ namespace AntiqueStore.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::AntiqueStore.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::AntiqueTracker.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation
